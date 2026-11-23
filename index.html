@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thala 7 - Sneaker Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="navbar">
+    <a href="#home" class="logo">Thala <span>7.</span></a>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#product">Products</a>
+        <a href="#cart">Cart</a>
+        <a href="#payment">Contact</a>
+    </nav>
+
+    <div class="nav-right">
+        <input type="search" placeholder="Search">
+        <a href="#cart">🛍️</a>
+        <a href="#payment">👤</a>
+    </div>
+</header>
+
+<!-- LANDING PAGE -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <p class="brand-name">SE7EN BY MS DHONI</p>
+        <h1>7!! Thala For<br>
+            a <span>Reason!</span>
+        </h1>
+        <p>
+            Experience premium comfort and style with our
+            exclusive sneaker collection. Designed for
+            everyday performance and fashion.
+        </p>
+        <a href="#product" class="dark-btn">Shop Now</a>
+    </div>
+
+    <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff"
+             alt="Red sneaker">
+    </div>
+</section>
+
+<!-- SERVICE OVERVIEW -->
+<section class="services">
+    <div class="service">
+        <h2>♡ 2k+</h2>
+        <p>Reviews</p>
+    </div>
+    <div class="service">
+        <h2>♧ 30k+</h2>
+        <p>Customers</p>
+    </div>
+    <div class="service">
+        <h2>☆ High</h2>
+        <p>Quality</p>
+    </div>
+    <div class="service">
+        <h2>★ 4.5/5</h2>
+        <p>Rating</p>
+    </div>
+</section>
+
+<!-- PRODUCT DISPLAY -->
+<section class="product-section" id="product">
+    <p class="small-heading">OUR COLLECTION</p>
+    <h1>Featured Sneakers</h1>
+
+    <div class="product-container">
+
+        <div class="main-product-image">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff"
+                 alt="Sneaker">
+        </div>
+
+        <div class="product-info">
+            <p class="breadcrumb">Home > Products > Sneakers</p>
+
+            <h2>Seven By M.S. Dhoni Women's
+                Multi-Color Running Shoes</h2>
+
+            <p class="description">
+                Experience exceptional comfort and smooth
+                transitions with these stylish running shoes.
+                Perfect for everyday use and sports activities.
+            </p>
+
+            <div class="price">
+                ₹1,334 <span>Save 12%</span>
+            </div>
+
+            <p class="tax">Inclusive of all taxes</p>
+
+            <div class="product-actions">
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+
+                <a href="#cart" class="orange-btn">🛒 ADD TO CART</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" alt="Shoe view 1">
+        <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519" alt="Shoe view 2">
+        <img src="https://images.unsplash.com/photo-1495555961986-6d4c1ecb7be3" alt="Shoe view 3">
+        <img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2" alt="Shoe view 4">
+    </div>
+</section>
+
+<!-- SHOPPING CART -->
+<section class="cart-section" id="cart">
+    <h1>Shopping Cart</h1>
+
+    <div class="cart-layout">
+
+        <div class="cart-products">
+            <div class="cart-header">
+                <span>Product</span>
+                <span>Quantity</span>
+                <span>Price</span>
+                <span>Remove</span>
+            </div>
+
+            <div class="cart-item">
+                <span>Seven By M.S. Dhoni Shoes</span>
+                <span>− 1 +</span>
+                <span>₹1,334</span>
+                <span class="remove">×</span>
+            </div>
+
+            <div class="cart-item">
+                <span>Running Sneakers</span>
+                <span>− 1 +</span>
+                <span>₹1,999</span>
+                <span class="remove">×</span>
+            </div>
+
+            <div class="cart-item">
+                <span>Sports Shoes</span>
+                <span>− 1 +</span>
+                <span>₹1,367</span>
+                <span class="remove">×</span>
+            </div>
+
+            <a href="#product" class="continue-shopping">
+                ← Continue Shopping
+            </a>
+        </div>
+
+        <div class="summary-card">
+            <h3>Enter Coupon Code</h3>
+
+            <div class="coupon">
+                <input type="text" placeholder="COUPON CODE">
+                <button>Apply Coupon</button>
+            </div>
+
+            <div class="summary-row">
+                <span>Sub Total</span>
+                <span>₹4,700</span>
+            </div>
+
+            <div class="summary-row">
+                <span>Taxes (if applicable)</span>
+                <span>₹199</span>
+            </div>
+
+            <div class="summary-row">
+                <span>Discount</span>
+                <span>₹0</span>
+            </div>
+
+            <div class="summary-row total">
+                <strong>Total</strong>
+                <strong>₹4,899</strong>
+            </div>
+
+            <a href="#payment" class="pay-btn">Proceed to Checkout</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- PAYMENT PAGE -->
+<section class="payment-section" id="payment">
+
+    <div class="payment-left">
+        <p class="small-heading">CHECKOUT</p>
+
+        <h2>Contact Details</h2>
+
+        <label>Email ID</label>
+        <input type="email" placeholder="Enter your email">
+
+        <h2>Payment</h2>
+
+        <div class="payment-box">
+
+            <div class="payment-methods">
+                <button class="active">💳<br>Card</button>
+                <button>₿<br>Crypto</button>
+                <button>🏦<br>Bank</button>
+                <button>⋮</button>
+            </div>
+
+            <label>Card Number</label>
+            <input type="text" placeholder="Enter card number">
+
+            <div class="form-row">
+                <div>
+                    <label>Expiry</label>
+                    <input type="text" placeholder="MM/YY">
+                </div>
+
+                <div>
+                    <label>CVV</label>
+                    <input type="password" placeholder="***">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div>
+                    <label>Country</label>
+                    <select>
+                        <option>India</option>
+                        <option>USA</option>
+                        <option>UK</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>ZIP Code</label>
+                    <input type="text" placeholder="XXXXX">
+                </div>
+            </div>
+
+        </div>
+
+        <a href="#home" class="continue-shopping">
+            ← Continue Shopping
+        </a>
+    </div>
+
+    <div class="payment-right">
+        <h1>Order Summary</h1>
+
+        <div class="summary-card">
+
+            <h3>Enter Coupon Code</h3>
+
+            <div class="coupon">
+                <input type="text" placeholder="COUPON CODE">
+                <button>Apply Coupon</button>
+            </div>
+
+            <div class="summary-row">
+                <span>Sub Total</span>
+                <span>₹4,700</span>
+            </div>
+
+            <div class="summary-row">
+                <span>Taxes (if applicable)</span>
+                <span>₹199</span>
+            </div>
+
+            <div class="summary-row">
+                <span>Discount</span>
+                <span>₹0</span>
+            </div>
+
+            <div class="summary-row total">
+                <strong>Total</strong>
+                <strong>₹4,899</strong>
+            </div>
+
+        </div>
+
+        <button class="pay-now">Pay Now ₹4,899</button>
+
+        <div class="secure">
+            <span>🛡️ Secure Payment</span>
+            <strong>Razorpay</strong>
+            <span>🔒 Verified</span>
+        </div>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Thala 7. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
